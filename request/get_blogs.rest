@@ -1,0 +1,10 @@
+GET http://localhost:3001/api/albums
+###
+POST http://localhost:3001/api/albums
+Content-Type: application/json
+
+{
+    "title": "holakehace",
+    "artist": "yo",
+    "likes": 0
+}
